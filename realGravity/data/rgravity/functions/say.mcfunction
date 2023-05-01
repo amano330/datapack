@@ -29,6 +29,6 @@ scoreboard players reset @a GravityPoint
 function rgravity:item_dist
 function rgravity:gravity_dist
 function rgravity:gravity_calc
-
+function rgravity:item_count
 
 advancement revoke @a only rgravity:inventory
