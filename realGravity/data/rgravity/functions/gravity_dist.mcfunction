@@ -1,8 +1,7 @@
 ##装備重さ判定
-
-#scoreboard objectives add ArmorGravity dummy
-
-
+##各装備の重量を設定する
+##革以外の装備には、重量を設定
+##
 
 ##鉄
 execute as @a[predicate=rgravity:iron/boots] run scoreboard players add @s ArmorGravity 10
